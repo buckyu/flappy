@@ -10,6 +10,18 @@
     <Filter Include="resource">
       <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\Utils">
+      <UniqueIdentifier>{578c57e8-71ec-4a39-ba7d-115f3cf41660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\sounds">
+      <UniqueIdentifier>{a1944329-61c0-46d6-9286-79d7d0c997f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\image">
+      <UniqueIdentifier>{79cacdfd-d231-48cb-8fa7-ff2036e40982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\fonts">
+      <UniqueIdentifier>{070d66de-c8b7-4f48-9a58-3e1450e71bc0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -20,6 +32,33 @@
     </ClCompile>
     <ClCompile Include="..\Classes\HelloWorldScene.cpp">
       <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\OptionLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WelcomeLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WelcomScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BackgroundLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BridSprite.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LoadingScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utils\AtlasLoader.cpp">
+      <Filter>Classes\Utils</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -32,10 +71,81 @@
     <ClInclude Include="..\Classes\HelloWorldScene.h">
       <Filter>Classes</Filter>
     </ClInclude>
+    <ClInclude Include="..\Classes\OptionLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WelcomeLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WelcomScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BackgroundLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BridSprite.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LoadingScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\AtlasLoader.h">
+      <Filter>Classes\Utils</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="game.rc">
       <Filter>resource</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\CloseNormal.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\CloseSelected.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\HelloWorld.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\image\atlas.png">
+      <Filter>resource\image</Filter>
+    </Image>
+    <Image Include="..\Resources\image\splash.png">
+      <Filter>resource\image</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\sounds\sfx_wing.ogg">
+      <Filter>resource\sounds</Filter>
+    </None>
+    <None Include="..\Resources\sounds\sfx_die.ogg">
+      <Filter>resource\sounds</Filter>
+    </None>
+    <None Include="..\Resources\sounds\sfx_hit.ogg">
+      <Filter>resource\sounds</Filter>
+    </None>
+    <None Include="..\Resources\sounds\sfx_point.ogg">
+      <Filter>resource\sounds</Filter>
+    </None>
+    <None Include="..\Resources\sounds\sfx_swooshing.ogg">
+      <Filter>resource\sounds</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Resources\image\atlas.txt">
+      <Filter>resource\image</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\Resources\fonts\Marker Felt.ttf">
+      <Filter>resource\fonts</Filter>
+    </Font>
   </ItemGroup>
 </Project>
