@@ -8,7 +8,6 @@ BridSprite::BridSprite()
 {
 }
 
-
 BridSprite::~BridSprite()
 {
 }
