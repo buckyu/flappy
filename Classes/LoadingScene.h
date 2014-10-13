@@ -12,10 +12,11 @@ class LoadingScene : public Scene
 public:
 	LoadingScene();
 	~LoadingScene();
-
 	virtual bool init();
 
+
 	CREATE_FUNC(LoadingScene);
+
 
 	void onEnter() override;
 
